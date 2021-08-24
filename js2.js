@@ -12,7 +12,7 @@ async function rollgacha() {
         if(servant.rarity <= rarity && !used_servants.includes(servant.name))
         {
           used_servants.push(servant.name);
-          yield 'Name: ' + servant.name + ', ' + servant.rarity + ' star, ' + servant.className + '</br>'+'</br>';
+          yield 'Name: ' + servant.name + ', ' + servant.rarity + ' star, ' + servant.className + '</br>'+'</br>'+'</br>';
         }
       }
     }
