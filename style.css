@@ -1,0 +1,12 @@
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+button {
+    display: grid;
+    margin: auto;
+    margin-top: 40px;
+}
