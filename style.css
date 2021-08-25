@@ -1,12 +1,35 @@
-body {
+* {
+    font-size: 20px;
+}
+
+form {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
 }
+
 
 button {
     display: grid;
     margin: auto;
     margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  margin: auto;
+}
+
+.bros {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p { 
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
